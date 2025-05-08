@@ -23,10 +23,15 @@ body {
     padding: 0;
 }
 
-h1, h2{
+h1 {
     font-family: var(--secondary-font);
 }
 
+h2 {
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
 a:link,
 a:visited {
     color: var(--accent-color);
@@ -62,21 +67,37 @@ button {
 }
 
 
+body {
+    background-color: #eaeaea;
+}
+
+
+
 img {
     width: 250px;
     height: 250px;
     object-fit: cover;
     max-width: 100%;
     display: block;
-    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* subtle shadow */
+    border-radius: 4px; /* optional: adds soft corners */
+    background-color: white; /* helps shadow stand out */
+    padding: 8px;  /*Creates a visible border effect */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow */
+    border-radius: 4px;   /* Slight rounding like the mockup */
 }
 
 
+
 .gallery {
+
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
 
 /* commented out - so js will toggle instead*/
