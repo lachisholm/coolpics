@@ -79,13 +79,13 @@ img {
     padding: 1rem;
 }
 
-
-#nav-menu {
+/* commented out - so js will toggle instead*/
+/*#nav-menu {
 
     display: block !important;
     background-color: yellow;
     
-}
+}*/
 
 #nav-menu.open {
     display: block;
