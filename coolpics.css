@@ -112,3 +112,27 @@ button {
 }
 }
 
+@media screen and (min-width: 1000px) {
+
+    /* Gallery becomes 3 columns */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Nav becomes horizontal */
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+
+    nav li {
+        margin: 0;
+    }
+
+    /* Hide the menu button*/
+    #menu-button {
+        display: none;
+    }
+}
