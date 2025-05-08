@@ -79,6 +79,16 @@ img {
     padding: 1rem;
 }
 
+
+#nav-menu {
+    display: none;
+    
+}
+
+#nav-menu.open {
+    display: block;
+}
+
 @media screen and (min-width: 700px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
@@ -99,3 +109,4 @@ button {
     display: none;
 }
 }
+
