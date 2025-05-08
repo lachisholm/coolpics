@@ -81,7 +81,9 @@ img {
 
 
 #nav-menu {
-    display: none;
+
+    display: block !important;
+    background-color: yellow;
     
 }
 
